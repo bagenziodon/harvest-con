@@ -59,7 +59,7 @@ export const assets = {
     razorpay_logo           // Razorpay logo for payments
 }
 
-// Array holding specialities with corresponding images
+// Array holding specialties with corresponding images
 export const specialityData = [
     {
         speciality: 'General physician',
