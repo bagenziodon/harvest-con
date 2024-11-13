@@ -37,3 +37,24 @@ import General_physician from './General_physician.svg'; // General physician sp
 import Gynecologist from './Gynecologist.svg';          // Gynecologist speciality icon
 import Neurologist from './Neurologist.svg';            // Neurologist speciality icon
 import Pediatricians from './Pediatricians.svg';        // Pediatricians speciality icon
+
+// Exporting all the images as an object, which makes them easy to import in other parts of the app
+export const assets = {
+    appointment_img,        // Appointment related image
+    header_img,             // Header section image
+    group_profiles,         // Group profile image
+    logo,                   // Website logo
+    chats_icon,             // Chat icon
+    verified_icon,          // Verified icon for credentials
+    info_icon,              // Info icon for additional details
+    profile_pic,            // Default profile picture
+    arrow_icon,             // Arrow icon for navigation
+    contact_image,          // Contact image
+    about_image,            // About section image
+    menu_icon,              // Menu icon for navigation
+    cross_icon,             // Cross icon for closing actions
+    dropdown_icon,          // Dropdown menu icon
+    upload_icon,            // Upload icon
+    stripe_logo,            // Stripe logo for payments
+    razorpay_logo           // Razorpay logo for payments
+}
