@@ -58,3 +58,31 @@ export const assets = {
     stripe_logo,            // Stripe logo for payments
     razorpay_logo           // Razorpay logo for payments
 }
+
+// Array holding specialities with corresponding images
+export const specialityData = [
+    {
+        speciality: 'General physician',
+        image: General_physician // Image for General physician speciality
+    },
+    {
+        speciality: 'Gynecologist',
+        image: Gynecologist // Image for Gynecologist speciality
+    },
+    {
+        speciality: 'Dermatologist',
+        image: Dermatologist // Image for Dermatologist speciality
+    },
+    {
+        speciality: 'Pediatricians',
+        image: Pediatricians // Image for Pediatricians speciality
+    },
+    {
+        speciality: 'Neurologist',
+        image: Neurologist // Image for Neurologist speciality
+    },
+    {
+        speciality: 'Gastroenterologist',
+        image: Gastroenterologist // Image for Gastroenterologist speciality
+    },
+]
